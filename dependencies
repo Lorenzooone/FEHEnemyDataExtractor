@@ -1,0 +1,4 @@
+enemyDataExtractor.o: enemyDataExtractor.cpp HSDArc.h \
+ enemyDataExtractor.h
+HSDArc.o: HSDArc.cpp HSDArc.h
+main.o: main.cpp HSDArc.h enemyDataExtractor.h
